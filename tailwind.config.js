@@ -5,7 +5,13 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+    },
+    fontFamily: {
+      satisfy: ["Satisfy", "cursive"],
+      greatvibes: ["Great Vibes", "cursive"],
+      birthstone: ["Birthstone", "cursive"],
+    },
   },
   plugins: [],
 }

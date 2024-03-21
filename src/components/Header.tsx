@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import Button from "./Button";
 
 
 const Header = () => {
@@ -25,7 +26,7 @@ const Header = () => {
 					<Link to="#">ABOUT US</Link>
 					<Link to="#">CONTACT US!</Link>
 				</div>
-				<button className="bg-[#BF9550] text-white p-3 rounded-full">APPLY FOR FINANCING</button>
+				<Button title="APPLY FOR FINANCING"/>
 			</div>
 		</div>
 	)
