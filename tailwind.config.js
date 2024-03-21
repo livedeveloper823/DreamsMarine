@@ -11,6 +11,7 @@ export default {
       satisfy: ["Satisfy", "cursive"],
       greatvibes: ["Great Vibes", "cursive"],
       birthstone: ["Birthstone", "cursive"],
+      poppins:["Poppins", "cursive"],
     },
   },
   plugins: [],

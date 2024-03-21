@@ -1,4 +1,4 @@
-import Contents from "../../content/images";
+import Contents from "../../content/contents";
 import { ReviewCardType } from "../../types/type";
 import ReviewCard from "./ReviewCard";
 
