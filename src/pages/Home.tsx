@@ -3,6 +3,7 @@ import Carousels from "../components/Carousel";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import ServiceCard from "../components/ServiceCard";
+import Reviews from "../components/reviews/Reviews";
 import images from "../content/images";
 import { Image } from "../types/type";
 // const sliderImages = require.context("src/assets/images/home-slider")
@@ -49,7 +50,10 @@ const Home = () => {
         <p className="my-5 text-[#0989A4] text-4xl font-birthstone font-bold">Ready to find your dream boat?</p>
         <p className="text-[#063752] text-6xl font-bold uppercase italic">DISCOVER YOUR PERFECT BOAT!</p>
       </div>
-      {/* Review! */}
+      {/* Reviews! */}
+      <div className="w-full p-20" style={{backgroundImage:'url("src/assets/images/footerbg.png")', backgroundSize:'cover', backgroundRepeat:'no-repeat'}}>
+        <Reviews />
+      </div>
       {/* Follow US! */}
       <div className="text-center my-20">
         <div className="flex justify-center"><img src="src/assets/icons/homefollow.svg" alt="" /></div>
