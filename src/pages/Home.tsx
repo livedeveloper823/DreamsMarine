@@ -53,6 +53,18 @@ const Home = () => {
         <p className="text-[#063752] text-6xl font-bold uppercase italic">DISCOVER YOUR PERFECT BOAT!</p>
       </div>
 
+      {/* Boats */}
+      <div className="text-center py-20" style={{backgroundImage:'url("src/assets/images/homepage/boatssectbg.png")', backgroundSize:'cover', backgroundRepeat:'no-repeat'}}>
+        <div className="flex justify-center"><img src={Contents.homeservice.src[4]} alt="" /></div>
+        <p className="my-5 text-[#BF9550] text-4xl font-birthstone font-bold"><span className="text-6xl">n</span>eed engine for your boat?</p>
+        <p className="text-white text-6xl font-bold uppercase italic">Find your heartbeat of your boat!</p>
+        <div></div>
+        <div className="flex gap-40 justify-center my-10">
+          <Button title="Explore our engine range"/>
+          <Button title="Explore financing solutions"/>
+        </div>
+      </div>
+
       {/* Help with your boat (Care) */}
       <div className="text-center">
         <div className="flex justify-center"><img src={Contents.homeservice.src[2]} alt="" /></div>
@@ -112,14 +124,14 @@ const Home = () => {
 
       {/* Savincs */}
       <div className="flex gap-56 h-[222px] justify-center items-center" style={{ backgroundImage: 'url("src/assets/images/homepage/homesavincs.png")' }}>
-        <p className=" w-[726px] uppercase text-[42px] text-white text-center">Join Our VIP Club for Exclusive Deals and Special Offers!</p>
+        <p className=" w-[726px] uppercase text-[42px] text-white font-bold italic text-center">Join Our VIP Club for Exclusive Deals and Special Offers!</p>
         <Button title="subscribe for Savincs" />
       </div>
-
+      
       {/* Brand Section */}
       <div className="flex mx-40 my-10 justify-around">
         {images.brands.map((item: Image, index: number) =>
-          <img key={index} src={item.src} alt={item.alt} />)}
+          <img key={index} src={item.src} alt={item.alt} className="object-contain object-center"/>)}
       </div>
       <Footer />
     </div>

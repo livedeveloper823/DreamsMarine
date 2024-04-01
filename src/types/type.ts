@@ -20,3 +20,10 @@ export interface CardServiceType {
     title2:string,
     text:string,
 }
+
+export interface Boat {
+    src:string,
+    alt:string,
+    brand:string,
+    boat:string,
+}

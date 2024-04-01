@@ -11,6 +11,7 @@ const Contents = {
             "src/assets/images/service images/boat-engine 1.svg",
             "src/assets/images/service images/boat-fan1.svg",
             "src/assets/images/service images/lifesaver 1.svg",
+            "src/assets/images/service images/boat-engine (2) 3.svg",
         ]
     },
     homefollowus: [
