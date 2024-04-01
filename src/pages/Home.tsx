@@ -8,7 +8,9 @@ import Reviews from "../components/reviews/Reviews";
 import Contents from "../content/contents";
 import images from "../content/contents";
 import { Image } from "../types/type";
-// const sliderImages = require.context("src/assets/images/home-slider")
+
+
+
 const Home = () => {
   return (
     <div >
@@ -66,7 +68,7 @@ const Home = () => {
       </div>
 
       {/* Help with your boat (Care) */}
-      <div className="text-center">
+      <div className="text-center my-20">
         <div className="flex justify-center"><img src={Contents.homeservice.src[2]} alt="" /></div>
         <p className="my-5 text-[#0989A4] text-4xl font-birthstone font-bold">Help with your boat?</p>
         <p className="text-[#063752] text-6xl font-bold uppercase italic">Seamless care for smoothin saling</p>
