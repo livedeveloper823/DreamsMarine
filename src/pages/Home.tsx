@@ -135,6 +135,8 @@ const Home = () => {
         {images.brands.map((item: Image, index: number) =>
           <img key={index} src={item.src} alt={item.alt} className="object-contain object-center"/>)}
       </div>
+      {/* Extra section for merge in github */}
+      <div>CopyRight@2024</div>
       <Footer />
     </div>
   )
